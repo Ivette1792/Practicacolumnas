@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    left: 80px;
+    
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #333;
+    
+}
+
+.cards{
+    width: 90%;
+    height: 500px;
+    margin: 200px auto;
+    font-size: 0;
+
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 2em;
+    font-size: 1rem;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.card__title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.card__description{
+    width: 100px;
+    height:auto;
+}
+
+.card--orange{
+    background-color: rgb(204, 95, 6); 
+}
+
+.card--cyan{
+    background-color: aquamarine;
+}
+
+.card--dark-cyan{
+    background-color: rgb(10, 139, 122);
+}
+
+.card__cta{
+    position: relative;
+    padding: 0.2em 2em;
+    background-color: #fff;
+    text-decoration: none;
+    bottom: -80px;
+}
+
+.card__cta--orange{
+    color: rgb(204, 95, 6);
+}
+
+.card__cta--cyan{
+    color: aquamarine;
+}
+
+.card__cta--dark-cyan{
+    color: rgb(10, 139, 122);
+}
+
